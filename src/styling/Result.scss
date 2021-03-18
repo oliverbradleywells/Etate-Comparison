@@ -1,0 +1,44 @@
+.comparison { 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: -1%;
+    height: 50%;
+    justify-content: center;
+    .post { 
+        margin: 1%;
+        padding: 1%;
+        padding-right: -1%;
+        border: 1px solid black;
+        font-weight: bold;
+        .post__text { 
+            font-size: 0.75em;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            .estate1__price { 
+                background-color: #7eda7e;
+            }
+            .estate1__floor-area { 
+                background-color: #7eda7e;
+            }
+            .estate1__land-area { 
+                background-color: #f09191;
+            }
+            .estate2__price { 
+                background-color: #f09191;
+            }
+            .estate2__floor-area { 
+                background-color: #f09191;
+            }
+            .estate2__land-area { 
+                background-color: #7eda7e;
+            }
+            div { 
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+
+}

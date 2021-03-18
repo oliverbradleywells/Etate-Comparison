@@ -1,0 +1,13 @@
+.list { 
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    .post { 
+        width: 9%;
+        font-size: 0.75em;
+        img { 
+            height: 60px;
+            width: 95%;
+        }
+    }
+}
